@@ -1,0 +1,17 @@
+[package]
+name = "def2mcpfnnumber"
+version = "0.1.0"
+edition = "2024"
+description = "Stable global token numbers for every definition in the csgraph database (IDE/Scratch/MCP addon)"
+license = "MIT"
+publish = false
+
+[lib]
+name = "def2mcpfnnumber"
+path = "src/lib.rs"
+
+[[bin]]
+name = "def2mcpfnnumber"
+path = "src/main.rs"
+
+[dependencies]
